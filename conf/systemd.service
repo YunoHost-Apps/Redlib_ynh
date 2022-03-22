@@ -1,0 +1,18 @@
+[Unit]
+Description=Libreddit: alternative to Reddit
+Before=nginx.service
+After=network.service
+
+[Service]
+User=__APP__
+Group=__APP__
+DynamicUser=yes
+# Default Values
+Environment=ADDRESS=127.0.0.1
+Environment=PORT=__PORT__
+# Optional Override
+EnvironmentFile=-__FINALPATH__/libreddit.conf
+ExecStart=__FINALPATH__/libreddit -a ${ADDRESS} -p ${PORT}
+
+[Install]
+WantedBy=multi-user.target

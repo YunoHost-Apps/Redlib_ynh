@@ -1,0 +1,48 @@
+{
+    "name": "Libreddit",
+    "id": "libreddit",
+    "packaging_format": 1,
+    "description": {
+        "en": "Libre alternative to Reddit",
+        "fr": "Alternative libre à Reddit"
+    },
+    "version": "0.22.2~ynh1",
+    "url": "https://libreddit.spike.codes/",
+    "upstream": {
+        "license": "AGPL-3.0",
+        "website": "https://libreddit.spike.codes/",
+        "demo": "https://libreddit.spike.codes/",
+        "code": "https://github.com/spikecodes/libreddit"
+    },
+    "license": "AGPL-3.0",
+    "maintainer": {
+        "name": "eric_G",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/libreddit",
+                "default": "/libreddit"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}
