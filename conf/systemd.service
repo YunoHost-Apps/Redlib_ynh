@@ -14,27 +14,5 @@ Environment=PORT=__PORT__
 EnvironmentFile=-__FINALPATH__/libreddit.conf
 ExecStart=__FINALPATH__/libreddit -a ${ADDRESS} -p ${PORT}
 
-# Hardening
-DeviceAllow=
-LockPersonality=yes
-MemoryDenyWriteExecute=yes
-PrivateDevices=yes
-ProcSubset=pid
-ProtectClock=yes
-ProtectControlGroups=yes
-ProtectHome=yes
-ProtectHostname=yes
-ProtectKernelLogs=yes
-ProtectKernelModules=yes
-ProtectKernelTunables=yes
-ProtectProc=invisible
-RestrictAddressFamilies=AF_INET AF_INET6
-RestrictNamespaces=yes
-RestrictRealtime=yes
-RestrictSUIDSGID=yes
-SystemCallArchitectures=native
-SystemCallFilter=@system-service ~@privileged ~@resources
-UMask=0077
-
 [Install]
 WantedBy=multi-user.target
