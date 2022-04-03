@@ -6,7 +6,7 @@
         "en": "Libre alternative to Reddit",
         "fr": "Alternative libre à Reddit"
     },
-    "version": "0.22.5~ynh1",
+    "version": "0.22.6~ynh1",
     "url": "https://libreddit.spike.codes/",
     "upstream": {
         "license": "AGPL-3.0",
@@ -27,7 +27,7 @@
         "nginx"
     ],
     "arguments": {
-        "install" : [
+        "install": [
             {
                 "name": "domain",
                 "type": "domain"
