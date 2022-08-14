@@ -27,6 +27,7 @@ Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a pr
 
 **Shipped version:** 0.22.9~ynh1
 
+
 **Demo:** https://libreddit.spike.codes/
 
 ## Screenshots
