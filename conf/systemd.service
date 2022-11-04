@@ -11,8 +11,8 @@ DynamicUser=yes
 Environment=ADDRESS=127.0.0.1
 Environment=PORT=__PORT__
 # Optional Override
-EnvironmentFile=-__FINALPATH__/libreddit.conf
-ExecStart=__FINALPATH__/libreddit -a ${ADDRESS} -p ${PORT}
+EnvironmentFile=-__INSTALL_DIR__/libreddit.conf
+ExecStart=__INSTALL_DIR__/libreddit -a ${ADDRESS} -p ${PORT}
 
 # Hardening
 DeviceAllow=
