@@ -6,7 +6,7 @@
         "en": "Libre alternative to Reddit",
         "fr": "Alternative libre à Reddit"
     },
-    "version": "0.22.9~ynh1",
+    "version": "0.23.1~ynh1",
     "url": "https://libreddit.spike.codes/",
     "upstream": {
         "license": "AGPL-3.0",
@@ -20,7 +20,7 @@
         "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
