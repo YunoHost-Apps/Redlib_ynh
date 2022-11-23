@@ -1,5 +1,5 @@
 SOURCE_URL=https://github.com/spikecodes/libreddit/releases/download/v0.24.1/libreddit
-SOURCE_SUM=a91136dd9bc77c3cda193f77072da12b9270980a7c32795422db9d23047983b2
+SOURCE_SUM=faf7d271f5e31e4097fc90cfbd8935964807270549c8a49d3fb13059545dae96
 SOURCE_SUM_PRG=sha256sum
 SOURCE_IN_SUBDIR=false
 SOURCE_FILENAME=libreddit
