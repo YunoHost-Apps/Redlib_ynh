@@ -6,7 +6,7 @@
         "en": "Libre alternative to Reddit",
         "fr": "Alternative libre à Reddit"
     },
-    "version": "0.27.0~ynh2",
+    "version": "0.27.1~ynh1",
     "url": "https://libreddit.spike.codes/",
     "upstream": {
         "license": "AGPL-3.0",
