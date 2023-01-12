@@ -19,13 +19,13 @@ Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a pr
 
 ### Features
 
-    🚀 Fast: written in Rust for blazing fast speeds and memory safety
-    ☁️ Light: no JavaScript, no ads, no tracking, no bloat
-    🕵 Private: all requests are proxied through the server, including media
-    🔒 Secure: strong Content Security Policy prevents browser requests to Reddit
+- Written in Rust for blazing fast speeds and memory safety
+- No JavaScript, no ads, no tracking, no bloat
+- All requests are proxied through the server, including media
+- Strong Content Security Policy prevents browser requests to Reddit
 
 
-**Shipped version:** 0.27.0~ynh2
+**Shipped version:** 0.27.1~ynh1
 
 **Demo:** https://libreddit.spike.codes/
 
