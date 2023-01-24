@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Libreddit for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/libreddit.svg)](https://dash.yunohost.org/appci/app/libreddit) ![Working status](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/libreddit.svg)](https://dash.yunohost.org/appci/app/libreddit) ![Working status](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
 [![Install Libreddit with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=libreddit)
 
 *[Lire ce readme en français.](./README_fr.md)*
