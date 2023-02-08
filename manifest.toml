@@ -19,7 +19,7 @@ code = "https://github.com/spikecodes/libreddit"
 yunohost = ">= 11.1.6"
 architectures = "all"
 multi_instance = true
-ldap = "false"
+ldap = false
 sso = "not_relevant"
 disk = "50M"
 ram.build = "50M"
