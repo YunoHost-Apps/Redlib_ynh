@@ -17,7 +17,7 @@ code = "https://github.com/spikecodes/libreddit"
 
 [integration]
 yunohost = ">= 11.1.6"
-architectures = "all"
+architectures = ["amd64"]
 multi_instance = true
 ldap = false
 sso = "not_relevant"
