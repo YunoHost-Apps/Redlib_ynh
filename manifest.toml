@@ -5,7 +5,7 @@ name = "Libreddit"
 description.en = "Libre alternative to Reddit"
 description.fr = "Alternative libre à Reddit"
 
-version = "0.28.1~ynh1"
+version = "0.29.2~ynh1"
 
 maintainers = ["eric_G"]
 
