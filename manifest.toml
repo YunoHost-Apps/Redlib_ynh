@@ -1,0 +1,46 @@
+packaging_format = 2
+
+id = "libreddit"
+name = "Libreddit"
+description.en = "Libre alternative to Reddit"
+description.fr = "Alternative libre à Reddit"
+
+version = "0.29.2~ynh2"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "AGPL-3.0"
+website = "https://libreddit.spike.codes/"
+demo = "https://libreddit.spike.codes/"
+code = "https://github.com/spikecodes/libreddit"
+
+[integration]
+yunohost = ">= 11.1.6"
+architectures = ["amd64"]
+multi_instance = true
+ldap = false
+sso = "not_relevant"
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+    full_domain = true
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.ports]
+
+    [resources.permissions]
+    main.url = "/"

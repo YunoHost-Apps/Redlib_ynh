@@ -1,0 +1,15 @@
+test_format = 1.0
+
+[default]
+
+    # ------------
+    # Tests to run
+    # ------------
+
+    exclude ="install.subdir"
+
+    # -------------------------------
+    # Commits to test upgrade from
+    # -------------------------------
+
+    test_upgrade_from.6fd7c2cf.name = "Upgrade from 0.22.2"
