@@ -44,6 +44,7 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+    
 [resources.sources]
     [resources.sources.main]
     url = "https://github.com/spikecodes/libreddit/releases/download/v0.30.0/libreddit"
