@@ -5,7 +5,7 @@ name = "Libreddit"
 description.en = "Libre alternative to Reddit"
 description.fr = "Alternative libre à Reddit"
 
-version = "0.30.0~ynh1"
+version = "0.30.0~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -16,7 +16,7 @@ demo = "https://libreddit.spike.codes/"
 code = "https://github.com/spikecodes/libreddit"
 
 [integration]
-yunohost = ">= 11.1.13"
+yunohost = ">= 11.1.14"
 architectures = ["amd64"]
 multi_instance = true
 ldap = false
@@ -44,3 +44,11 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+
+[resources.sources]
+    [resources.sources.main]
+    url = "https://github.com/spikecodes/libreddit/releases/download/v0.30.0/libreddit"
+    sha256 = "46f7424d963af88428c7863010c8a20d6c5791b6425495abe6439a4838d65427"
+    extract = false
+    in_subdir = false
+    rename = "libreddit"
