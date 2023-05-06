@@ -16,7 +16,7 @@ demo = "https://libreddit.spike.codes/"
 code = "https://github.com/spikecodes/libreddit"
 
 [integration]
-yunohost = ">= 11.1.15"
+yunohost = ">= 11.1.18"
 architectures = ["amd64"]
 multi_instance = true
 ldap = false
@@ -43,6 +43,7 @@ ram.runtime = "50M"
         extract = false
         in_subdir = false
         rename = "libreddit"
+        autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
