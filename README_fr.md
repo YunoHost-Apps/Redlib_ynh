@@ -16,15 +16,14 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a private front-end like Invidious but for Reddit. Browse the coldest takes of r/unpopularopinion without being tracked.
+Libreddit est un mot-valise de "libre" (qui signifie liberté) et "Reddit". C'est une interface privée comme Invidious mais pour Reddit. Parcourez les prises les plus froides de r/unpopularopinion sans être suivi.
 
-### Features
+### Caractéristiques
 
-- Written in Rust for blazing fast speeds and memory safety
-- No JavaScript, no ads, no tracking, no bloat
-- All requests are proxied through the server, including media
-- Strong Content Security Policy prevents browser requests to Reddit
-
+- Écrit en Rust pour des vitesses ultra rapides et la sécurité de la mémoire
+- Pas de JavaScript, pas de publicité, pas de suivi, pas de ballonnement
+- Toutes les requêtes sont transmises via le serveur, y compris les médias
+- Une politique de sécurité du contenu solide empêche les requêtes du navigateur à Reddit
 
 **Version incluse :** 0.30.1~ynh2
 
