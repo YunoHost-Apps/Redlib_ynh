@@ -25,7 +25,7 @@ Libreddit est un mot-valise de "libre" (qui signifie liberté) et "Reddit". C'es
 - Toutes les requêtes sont transmises via le serveur, y compris les médias
 - Une politique de sécurité du contenu solide empêche les requêtes du navigateur à Reddit
 
-**Version incluse :** 0.30.1~ynh4
+**Version incluse :** 3.0.0~ynh4
 
 **Démo :** https://libreddit.spike.codes/
 
