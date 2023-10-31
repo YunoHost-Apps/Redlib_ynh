@@ -38,7 +38,7 @@ Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a pr
 
 * Official app website: <https://libreddit.spike.codes/>
 * Upstream app code repository: <https://github.com/spikecodes/libreddit>
-* YunoHost documentation for this app: <https://yunohost.org/app_libreddit>
+* YunoHost Store: <https://apps.yunohost.org/app/libreddit>
 * Report a bug: <https://github.com/YunoHost-Apps/libreddit_ynh/issues>
 
 ## Developer info
