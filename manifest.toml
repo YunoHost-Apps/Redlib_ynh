@@ -5,7 +5,7 @@ name = "Libreddit"
 description.en = "Libre alternative to Reddit"
 description.fr = "Alternative libre à Reddit"
 
-version = "0.30.1~ynh4"
+version = "v3.0.0~ynh1"
 
 maintainers = []
 
@@ -37,8 +37,8 @@ ram.runtime = "50M"
 
     [resources.sources]
         [resources.sources.main]
-        url = "https://github.com/spikecodes/libreddit/releases/download/v0.30.0/libreddit"
-        sha256 = "7148815a160acf4b19d5fec1e3c47f9fc7a850a212f3b83ed88a1a76c39882c9"
+        url = "https://github.com/spikecodes/libreddit/archive/refs/tags/v3.0.0.tar.gz"
+        sha256 = "2acba35564fb54401adc1bcc2a39b9724fc437bebcf31657c1e5204cdb1940eb"
         extract = false
         in_subdir = false
         rename = "libreddit"
