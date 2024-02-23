@@ -38,7 +38,6 @@ ram.runtime = "50M"
         url = "https://github.com/libreddit/libreddit/releases/download/v0.30.1/libreddit"
         sha256 = "60dd0c785d2b49c628308b99b0e630c4d47584616318937acf3a083e39502035"
         extract = false
-        in_subdir = false
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = "^libreddit$"
 
