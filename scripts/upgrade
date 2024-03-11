@@ -33,7 +33,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=5
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$install_dir" --keep="libreddit.conf"
+	ynh_setup_source --dest_dir="$install_dir" --full_replace=1 --keep="libreddit.conf"
 fi
 
 chown -R $app:www-data "$install_dir"
