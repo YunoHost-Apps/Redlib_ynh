@@ -7,7 +7,7 @@ description.fr = "Alternative libre à Reddit"
 
 version = "0.30.1~ynh4"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "AGPL-3.0"
@@ -16,7 +16,7 @@ demo = "https://libreddit.spike.codes/"
 code = "https://github.com/spikecodes/libreddit"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = ["amd64"]
 multi_instance = true
 ldap = false
