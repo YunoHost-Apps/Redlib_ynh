@@ -35,6 +35,11 @@ Libreddit est un mot-valise de "libre" (qui signifie liberté) et "Reddit". C'es
 
 ## Documentations et ressources
 
+- Site officiel de l’app : <https://libreddit.spike.codes/>
+- Dépôt de code officiel de l’app : <https://github.com/spikecodes/libreddit>
+- YunoHost Store : <https://apps.yunohost.org/app/libreddit>
+- Signaler un bug : <https://github.com/YunoHost-Apps/libreddit_ynh/issues>
+
 ## Informations pour les développeurs
 
 Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/libreddit_ynh/tree/testing).
