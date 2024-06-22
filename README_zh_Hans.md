@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Libreddit
+# YunoHost 上的 Libreddit
 
 [![集成程度](https://dash.yunohost.org/integration/libreddit.svg)](https://dash.yunohost.org/appci/app/libreddit) ![工作状态](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
 
