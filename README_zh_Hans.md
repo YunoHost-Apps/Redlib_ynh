@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Libreddit
 
-[![集成程度](https://dash.yunohost.org/integration/libreddit.svg)](https://dash.yunohost.org/appci/app/libreddit) ![工作状态](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/libreddit.svg)](https://ci-apps.yunohost.org/ci/apps/libreddit/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
 
 [![使用 YunoHost 安装 Libreddit](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=libreddit)
 
@@ -26,7 +26,7 @@ Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a pr
 - Strong Content Security Policy prevents browser requests to Reddit
 
 
-**分发版本：** 0.30.1~ynh4
+**分发版本：** 0.35.1~ynh1
 
 **演示：** <https://libreddit.spike.codes/>
 
