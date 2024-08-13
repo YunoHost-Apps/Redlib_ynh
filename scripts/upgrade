@@ -27,14 +27,10 @@ ynh_systemd_action --service_name=$app --action="stop" --log_path="systemd"
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
+ynh_script_progression --message="Upgrading source files..." --weight=5
 
-if [ "$upgrade_type" == "UPGRADE_APP" ]
-then
-	ynh_script_progression --message="Upgrading source files..." --weight=5
-
-	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$install_dir" --keep="libreddit.conf"
-fi
+# Download, check integrity, uncompress and patch the source from app.src
+ynh_setup_source --dest_dir="$install_dir" --keep="libreddit.conf"
 
 chown -R $app:www-data "$install_dir"
 chmod +x $install_dir/libreddit
@@ -57,7 +53,7 @@ yunohost service add $app --description="Alternative to Reddit" --log="/var/log/
 #=================================================
 #ynh_script_progression --message="Updating a configuration file..." --weight=1
 
-# ynh_add_config --template="../conf/libreddit.conf" --destination="$install_dir/libreddit.conf"
+# ynh_add_config --template="libreddit.conf" --destination="$install_dir/libreddit.conf"
 
 # chmod 400 "$install_dir/libreddit.conf"
 # chown $app:$app "$install_dir/libreddit.conf"

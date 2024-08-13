@@ -38,7 +38,7 @@ yunohost service add $app --description="Alternative to Reddit" --log="/var/log/
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/libreddit.conf" --destination="$install_dir/libreddit.conf"
+ynh_add_config --template="libreddit.conf" --destination="$install_dir/libreddit.conf"
 
 chmod 400 "$install_dir/libreddit.conf"
 chown $app:$app "$install_dir/libreddit.conf"
