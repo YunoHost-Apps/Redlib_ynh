@@ -7,7 +7,7 @@ After=network.service
 User=__APP__
 Group=__APP__
 DynamicUser=yes
-EnvironmentFile=-__INSTALL_DIR__/libreddit.conf
+EnvironmentFile=-__INSTALL_DIR__/.env
 ExecStart=__INSTALL_DIR__/libreddit -a 127.0.0.1 -p __PORT__
 
 [Install]
