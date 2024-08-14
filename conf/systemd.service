@@ -8,7 +8,6 @@ User=__APP__
 Group=__APP__
 DynamicUser=yes
 EnvironmentFile=-__INSTALL_DIR__/redlib.conf
-#ExecStart=__INSTALL_DIR__/redlib -a 127.0.0.1 -p __PORT__ --env-file .env
 ExecStart=__INSTALL_DIR__/redlib -a 127.0.0.1 -p __PORT__
 
 # Hardening
