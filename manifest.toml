@@ -16,11 +16,11 @@ demo = "https://libreddit.spike.codes/"
 code = "https://github.com/spikecodes/libreddit"
 
 [integration]
-yunohost = ">= 11.2.20"
+yunohost = ">= 11.2.27"
 architectures = ["amd64"]
 multi_instance = true
 ldap = false
-sso = "not_relevant"
+sso = false
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
