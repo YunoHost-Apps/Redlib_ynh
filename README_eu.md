@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Libreddit YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/libreddit.svg)](https://dash.yunohost.org/appci/app/libreddit) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/libreddit.svg)](https://ci-apps.yunohost.org/ci/apps/libreddit/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
 
 [![Instalatu Libreddit YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=libreddit)
 
@@ -26,7 +26,7 @@ Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a pr
 - Strong Content Security Policy prevents browser requests to Reddit
 
 
-**Paketatutako bertsioa:** 0.30.1~ynh4
+**Paketatutako bertsioa:** 0.35.1~ynh1
 
 **Demoa:** <https://libreddit.spike.codes/>
 

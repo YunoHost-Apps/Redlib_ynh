@@ -7,8 +7,31 @@ After=network.service
 User=__APP__
 Group=__APP__
 DynamicUser=yes
-EnvironmentFile=-__INSTALL_DIR__/libreddit.conf
-ExecStart=__INSTALL_DIR__/libreddit -a 127.0.0.1 -p __PORT__
+EnvironmentFile=-__INSTALL_DIR__/redlib.conf
+#ExecStart=__INSTALL_DIR__/redlib -a 127.0.0.1 -p __PORT__ --env-file .env
+ExecStart=__INSTALL_DIR__/redlib -a 127.0.0.1 -p __PORT__
+
+# Hardening
+DeviceAllow=
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+PrivateDevices=yes
+ProcSubset=pid
+ProtectClock=yes
+ProtectControlGroups=yes
+ProtectHome=yes
+ProtectHostname=yes
+ProtectKernelLogs=yes
+ProtectKernelModules=yes
+ProtectKernelTunables=yes
+ProtectProc=invisible
+RestrictAddressFamilies=AF_INET AF_INET6
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service ~@privileged ~@resources
+UMask=0077
 
 [Install]
 WantedBy=multi-user.target
