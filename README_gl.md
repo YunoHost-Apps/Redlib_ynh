@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Libreddit para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/libreddit.svg)](https://dash.yunohost.org/appci/app/libreddit) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/libreddit.svg)](https://ci-apps.yunohost.org/ci/apps/libreddit/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
 
 [![Instalar Libreddit con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=libreddit)
 
@@ -26,7 +26,7 @@ Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a pr
 - Strong Content Security Policy prevents browser requests to Reddit
 
 
-**Versión proporcionada:** 0.30.1~ynh4
+**Versión proporcionada:** 0.35.1~ynh1
 
 **Demo:** <https://libreddit.spike.codes/>
 
