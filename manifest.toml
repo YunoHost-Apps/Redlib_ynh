@@ -41,7 +41,7 @@ ram.runtime = "50M"
         sha256 = "fbd1abd1ccd418e397b0ec3cf449fcd2faae6fbe0873c3485636d9785efb0471"
         extract = false
         in_subdir = false
-        rename = "libreddit"
+        rename = "redlib"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
