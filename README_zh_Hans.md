@@ -26,7 +26,7 @@ Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a pr
 - Strong Content Security Policy prevents browser requests to Reddit
 
 
-**分发版本：** 0.35.1~ynh2
+**分发版本：** 3.0.0~ynh1
 
 **演示：** <https://libreddit.spike.codes/>
 
