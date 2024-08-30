@@ -5,7 +5,7 @@ name = "Libreddit"
 description.en = "Libre alternative to Reddit"
 description.fr = "Alternative libre à Reddit"
 
-version = "0.35.1~ynh2"
+version = "3.0.0~ynh1"
 
 maintainers = []
 
@@ -38,8 +38,8 @@ ram.runtime = "50M"
 
     [resources.sources]
         [resources.sources.main]
-        url = "https://github.com/redlib-org/redlib/releases/download/v0.35.1/redlib"
-        sha256 = "795222c0a368d893310996186527372aedf280a343cf699b3d2cc753c5991131"
+        url = "https://github.com/spikecodes/libreddit/archive/refs/tags/v3.0.0.tar.gz"
+        sha256 = "2acba35564fb54401adc1bcc2a39b9724fc437bebcf31657c1e5204cdb1940eb"
         extract = false
         in_subdir = false
         rename = "redlib"
