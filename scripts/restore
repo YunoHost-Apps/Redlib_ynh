@@ -24,14 +24,14 @@ systemctl enable $app.service --quiet
 
 yunohost service add $app --description="Alternative to Reddit" --log="/var/log/$app/$app.log"
 
-ynh_systemctl --service=$app --action="start" --log_path="systemd"
+ynh_systemctl  --action="start" --log_path="systemd"
 
 #=================================================
 # RELOAD NGINX AND PHP-FPM OR THE APP SERVICE
 #=================================================
 ynh_script_progression "Reloading NGINX web server and $app's service..."
 
-ynh_systemctl --service=$app --action="start" --log_path="systemd"
+ynh_systemctl  --action="start" --log_path="systemd"
 
 ynh_systemctl --service=nginx --action=reload
 
