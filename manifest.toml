@@ -16,7 +16,7 @@ demo = "https://libreddit.spike.codes/"
 code = "https://github.com/spikecodes/libreddit"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 11.2.29"
 helpers_version = "2.1"
 architectures = ["amd64"]
 multi_instance = true
@@ -43,7 +43,7 @@ ram.runtime = "50M"
         extract = false
         in_subdir = false
         rename = "redlib"
-        autoupdate.strategy = "latest_github_tag"
+        #autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
