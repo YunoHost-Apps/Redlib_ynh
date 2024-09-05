@@ -26,7 +26,7 @@ Redlib is an alternative private front-end to Reddit, with its origins in Libred
 - Strong Content Security Policy prevents browser requests to Reddit
 
 
-**Versi terkirim:** 0.35.1~ynh3
+**Versi terkirim:** 0.35.1~ynh4
 
 ## Tangkapan Layar
 

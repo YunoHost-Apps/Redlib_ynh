@@ -25,7 +25,7 @@ Redlib est une interface privée alternative à Reddit, dont les origines se tro
 - Toutes les requêtes sont transmises via le serveur, y compris les médias
 - Une politique de sécurité du contenu solide empêche les requêtes du navigateur à Reddit
 
-**Version incluse :** 0.35.1~ynh3
+**Version incluse :** 0.35.1~ynh4
 
 ## Captures d’écran
 
