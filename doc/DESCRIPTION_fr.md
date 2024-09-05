@@ -1,4 +1,4 @@
-Libreddit est un mot-valise de "libre" (qui signifie liberté) et "Reddit". C'est une interface privée comme Invidious mais pour Reddit. Parcourez les prises les plus froides de r/unpopularopinion sans être suivi.
+Redlib est une interface privée alternative à Reddit, dont les origines se trouvent dans Libreddit. C'est une interface privée comme Invidious mais pour Reddit. Parcourez les prises les plus froides de r/unpopularopinion sans être suivi.
 
 ### Caractéristiques
 

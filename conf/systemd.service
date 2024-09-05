@@ -1,5 +1,5 @@
 [Unit]
-Description=Libreddit: alternative to Reddit
+Description=Redlib: alternative to Reddit
 Before=nginx.service
 After=network.service
 
