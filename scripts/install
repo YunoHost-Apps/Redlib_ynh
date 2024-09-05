@@ -38,7 +38,7 @@ chown $app:$app "$install_dir/redlib.conf"
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service=$app --action="start" --log_path="systemd"
+ynh_systemctl  --action="start" --log_path="systemd"
 
 #=================================================
 # END OF SCRIPT
