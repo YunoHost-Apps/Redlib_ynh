@@ -3,20 +3,20 @@ Nota bene : ce README est automatiquement généré par <https://github.com/Yu
 Il NE doit PAS être modifié à la main.
 -->
 
-# Libreddit pour YunoHost
+# Redlib pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/libreddit.svg)](https://ci-apps.yunohost.org/ci/apps/libreddit/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/redlib.svg)](https://ci-apps.yunohost.org/ci/apps/redlib/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/redlib.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/redlib.maintain.svg)
 
-[![Installer Libreddit avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=libreddit)
+[![Installer Redlib avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=redlib)
 
 *[Lire le README dans d'autres langues.](./ALL_README.md)*
 
-> *Ce package vous permet d’installer Libreddit rapidement et simplement sur un serveur YunoHost.*  
+> *Ce package vous permet d’installer Redlib rapidement et simplement sur un serveur YunoHost.*  
 > *Si vous n’avez pas YunoHost, consultez [ce guide](https://yunohost.org/install) pour savoir comment l’installer et en profiter.*
 
 ## Vue d’ensemble
 
-Libreddit est un mot-valise de "libre" (qui signifie liberté) et "Reddit". C'est une interface privée comme Invidious mais pour Reddit. Parcourez les prises les plus froides de r/unpopularopinion sans être suivi.
+Redlib est une interface privée alternative à Reddit, dont les origines se trouvent dans Libreddit. C'est une interface privée comme Invidious mais pour Reddit. Parcourez les prises les plus froides de r/unpopularopinion sans être suivi.
 
 ### Caractéristiques
 
@@ -27,29 +27,26 @@ Libreddit est un mot-valise de "libre" (qui signifie liberté) et "Reddit". C'es
 
 **Version incluse :** 0.35.1~ynh3
 
-**Démo :** <https://libreddit.spike.codes/>
-
 ## Captures d’écran
 
-![Capture d’écran de Libreddit](./doc/screenshots/screenshot.png)
+![Capture d’écran de Redlib](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
-- Site officiel de l’app : <https://libreddit.spike.codes/>
-- Dépôt de code officiel de l’app : <https://github.com/spikecodes/libreddit>
-- YunoHost Store : <https://apps.yunohost.org/app/libreddit>
-- Signaler un bug : <https://github.com/YunoHost-Apps/libreddit_ynh/issues>
+- Dépôt de code officiel de l’app : <https://github.com/redlib-org/redlib>
+- YunoHost Store : <https://apps.yunohost.org/app/redlib>
+- Signaler un bug : <https://github.com/YunoHost-Apps/redlib_ynh/issues>
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/libreddit_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche `testing`](https://github.com/YunoHost-Apps/redlib_ynh/tree/testing).
 
 Pour essayer la branche `testing`, procédez comme suit :
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/libreddit_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/redlib_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade libreddit -u https://github.com/YunoHost-Apps/libreddit_ynh/tree/testing --debug
+sudo yunohost app upgrade redlib -u https://github.com/YunoHost-Apps/redlib_ynh/tree/testing --debug
 ```
 
 **Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
