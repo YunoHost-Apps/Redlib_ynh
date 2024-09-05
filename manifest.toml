@@ -5,7 +5,7 @@ name = "Redlib"
 description.en = "Libre alternative to Reddit"
 description.fr = "Alternative libre à Reddit"
 
-version = "0.35.1~ynh3"
+version = "0.35.1~ynh4"
 
 maintainers = []
 
