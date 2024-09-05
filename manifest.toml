@@ -1,7 +1,7 @@
 packaging_format = 2
 
-id = "libreddit"
-name = "Libreddit"
+id = "redlib"
+name = "Redlib"
 description.en = "Libre alternative to Reddit"
 description.fr = "Alternative libre à Reddit"
 
@@ -11,12 +11,10 @@ maintainers = []
 
 [upstream]
 license = "AGPL-3.0"
-website = "https://libreddit.spike.codes/"
-demo = "https://libreddit.spike.codes/"
-code = "https://github.com/spikecodes/libreddit"
+code = "https://github.com/redlib-org/redlib"
 
 [integration]
-yunohost = ">= 11.2.29"
+yunohost = ">= 11.2.30"
 helpers_version = "2.1"
 architectures = ["amd64"]
 multi_instance = true
