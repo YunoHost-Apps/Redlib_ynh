@@ -3,20 +3,20 @@
 Он НЕ ДОЛЖЕН редактироваться вручную.
 -->
 
-# Libreddit для YunoHost
+# Redlib для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/libreddit.svg)](https://ci-apps.yunohost.org/ci/apps/libreddit/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/libreddit.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/libreddit.maintain.svg)
+[![Уровень интеграции](https://dash.yunohost.org/integration/redlib.svg)](https://ci-apps.yunohost.org/ci/apps/redlib/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/redlib.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/redlib.maintain.svg)
 
-[![Установите Libreddit с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=libreddit)
+[![Установите Redlib с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=redlib)
 
 *[Прочтите этот README на других языках.](./ALL_README.md)*
 
-> *Этот пакет позволяет Вам установить Libreddit быстро и просто на YunoHost-сервер.*  
+> *Этот пакет позволяет Вам установить Redlib быстро и просто на YunoHost-сервер.*  
 > *Если у Вас нет YunoHost, пожалуйста, посмотрите [инструкцию](https://yunohost.org/install), чтобы узнать, как установить его.*
 
 ## Обзор
 
-Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a private front-end like Invidious but for Reddit. Browse the coldest takes of r/unpopularopinion without being tracked.
+Redlib is an alternative private front-end to Reddit, with its origins in Libreddit. It is a private front-end like Invidious but for Reddit. Browse the coldest takes of r/unpopularopinion without being tracked.
 
 ### Features
 
@@ -28,29 +28,26 @@ Libreddit is a portmanteau of "libre" (meaning freedom) and "Reddit". It is a pr
 
 **Поставляемая версия:** 0.35.1~ynh3
 
-**Демо-версия:** <https://libreddit.spike.codes/>
-
 ## Снимки экрана
 
-![Снимок экрана Libreddit](./doc/screenshots/screenshot.png)
+![Снимок экрана Redlib](./doc/screenshots/screenshot.png)
 
 ## Документация и ресурсы
 
-- Официальный веб-сайт приложения: <https://libreddit.spike.codes/>
-- Репозиторий кода главной ветки приложения: <https://github.com/spikecodes/libreddit>
-- Магазин YunoHost: <https://apps.yunohost.org/app/libreddit>
-- Сообщите об ошибке: <https://github.com/YunoHost-Apps/libreddit_ynh/issues>
+- Репозиторий кода главной ветки приложения: <https://github.com/redlib-org/redlib>
+- Магазин YunoHost: <https://apps.yunohost.org/app/redlib>
+- Сообщите об ошибке: <https://github.com/YunoHost-Apps/redlib_ynh/issues>
 
 ## Информация для разработчиков
 
-Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/libreddit_ynh/tree/testing).
+Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/redlib_ynh/tree/testing).
 
 Чтобы попробовать ветку `testing`, пожалуйста, сделайте что-то вроде этого:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/libreddit_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/redlib_ynh/tree/testing --debug
 или
-sudo yunohost app upgrade libreddit -u https://github.com/YunoHost-Apps/libreddit_ynh/tree/testing --debug
+sudo yunohost app upgrade redlib -u https://github.com/YunoHost-Apps/redlib_ynh/tree/testing --debug
 ```
 
 **Больше информации о пакетировании приложений:** <https://yunohost.org/packaging_apps>
