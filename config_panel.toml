@@ -1,5 +1,6 @@
 version = "1.0"
 [main]
+name = "Redlib configuration"
 services = [ '__APP__' ]
 
     [main.main]
