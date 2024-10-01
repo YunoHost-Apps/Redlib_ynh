@@ -1,0 +1,122 @@
+version = "1.0"
+[main]
+services = [ '__APP__' ]
+
+    [main.main]
+        [main.main.theme]
+        ask.en = "Theme"
+        type = "select"
+        choices = ["system", "light", "dark", "black", "dracula", "nord", "laserwave", "violet", "gold", "rosebox", "gruvboxdark", "gruvboxlight"]
+        bind = "REDLIB_DEFAULT_THEME:__INSTALL_DIR__/redlib.conf"
+        default = "system"
+        
+        [main.main.front_page]
+        ask.en = "Front Page"
+        type = "select"
+        bind = "REDLIB_DEFAULT_FRONT_PAGE:__INSTALL_DIR__/redlib.conf"
+        choices = ["default", "popular", "all"]
+        default = "default"
+        
+        [main.main.layout]
+        ask.en = "Layout"
+        type = "select"
+        bind = "REDLIB_DEFAULT_LAYOUT:__INSTALL_DIR__/redlib.conf"
+        choices = ["card", "clean", "compact"]
+        default = "card"
+
+        [main.main.wide]
+        ask.en = "Wide UI"
+        type = "select"
+        bind = "REDLIB_DEFAULT_WIDE:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "off"
+
+        [main.main.post_sort]
+        ask.en = "Default subreddit post sort"
+        type = "select"
+        bind = "REDLIB_DEFAULT_POST_SORT:__INSTALL_DIR__/redlib.conf"
+        choices = ["hot", "new", "top", "rising", "controversial"]
+        default = "hot"
+
+        [main.main.comment_sort]
+        ask.en = "Default comment sort"
+        type = "select"
+        bind = "REDLIB_DEFAULT_COMMENT_SORT:__INSTALL_DIR__/redlib.conf"
+        choices = ["confidence", "top", "new", "controversial", "old"]
+        default = "confidence"
+
+        [main.main.blur_spoiler]
+        ask.en = "Blur spoiler previews"
+        type = "select"
+        bind = "REDLIB_DEFAULT_BLUR_SPOILER:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "off"
+
+        [main.main.show_nsfw]
+        ask.en = "Show NSFW posts"
+        type = "select"
+        bind = "REDLIB_DEFAULT_SHOW_NSFW:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "off"
+
+        [main.main.blur_nsfw]
+        ask.en = "Blur NSFW previews"
+        type = "select"
+        bind = "REDLIB_DEFAULT_BLUR_NSFW:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "off"
+
+        [main.main.use_hls]
+        ask.en = "Use HLS for videos"
+        type = "select"
+        bind = "REDLIB_DEFAULT_USE_HLS:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "off"
+
+        [main.main.hide_hls_notification]
+        ask.en = "Hide notification about possible HLS usage"
+        type = "select"
+        bind = "REDLIB_DEFAULT_HIDE_HLS_NOTIFICATION:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "off"
+
+        [main.main.autoplay_videos]
+        ask.en = "Autoplay videos"
+        type = "select"
+        bind = "REDLIB_DEFAULT_AUTOPLAY_VIDEOS:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "off"
+
+        [main.main.subscriptions]
+        ask.en = "Default list of subreddit subscriptions"
+        type = "string"
+        bind = "REDLIB_DEFAULT_SUBSCRIPTIONS:__INSTALL_DIR__/redlib.conf"
+        example = "sub1+sub2+sub3"
+
+        [main.main.filters]
+        ask.en = "Default list of subreddit filters"
+        type = "string"
+        bind = "REDLIB_DEFAULT_FILTERS:__INSTALL_DIR__/redlib.conf"
+        example = "sub1+sub2+sub3"
+
+        [main.main.hide_awards]
+        ask.en = "Hide awards"
+        type = "select"
+        bind = "REDLIB_DEFAULT_HIDE_AWARDS:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "off"
+
+        [main.main.disable_visit_reddit_confirmation]
+        ask.en = "Disable the confirmation before visiting Reddit"
+        type = "select"
+        bind = "REDLIB_DEFAULT_DISABLE_VISIT_REDDIT_CONFIRMATION:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "off"
+
+        [main.main.fixed_navbar]
+        ask.en = "Disable fixed navbar"
+        type = "select"
+        bind = "REDLIB_DEFAULT_FIXED_NAVBAR:__INSTALL_DIR__/redlib.conf"
+        choices = ["on", "off"]
+        default = "on"
+
